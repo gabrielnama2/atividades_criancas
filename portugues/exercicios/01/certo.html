@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Atividades</title>
+    <link rel="alternate" href="android-app://com.mercadolibre/meli/home" />
+  </head>
+  <body>
+        <div class="area" >
+      <ul class="circles">
+    <div class="container">
+      <center>
+        
+        <form name="meu_form" method="post" onSubmit="return Enviar();">
+          <br>
+          <a href="../../index.html"><img src="../voltar.png" style="float: left;"></a><br><br>
+          <br>
+
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li> 
+          
+          <br><br>
+          <h1>Separação Silábica</h1>
+          <br>
+
+          <br><br>
+          <div class="conta">
+
+            <h2>1) Assinale a alternativa em que a divisão silábica com os nomes abaixo esteja correta.</h2>
+
+          </div>
+          <br><br>
+
+          <div class="alert alert-success" role="alert">
+            Parabéns, você acertou!
+          </div>
+          <br>
+          <a href="../02/02.html">
+            <button id="botao" type="button" class="btn btn-outline-success">Próximo</button>
+          </a>
+   
+      </form>
+
+      </center>
+    </div>
+
+
+    <script type="text/javascript">
+
+      function Enviar() {
+ 
+          //var x = document.getElementById("resultado");
+
+          if (document.meu_form.resultado[0].checked == true && document.meu_form.resultado[1].checked == false){
+            alert("Acertou!");
+            return true;
+          }
+          else
+            alert("Errado!");
+       
+       
+      }
+
+      /*
+      function Enviar() {
+ 
+          var x = document.getElementById("resultado");
+
+          if(x.value == 72){
+            alert("Acertou, Parabéns!");
+            window.location.href = "index01.html";
+          }
+          else{
+            alert("Errado, tente novamente");
+          }
+       
+       
+      }
+      */
+
+    </script>
+
+
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+     </ul>
+    </div >
+  </body>
+</html>
